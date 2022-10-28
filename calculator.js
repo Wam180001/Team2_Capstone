@@ -27,6 +27,8 @@ class GPA_Calculator extends Student{
         
         //need to see what track the student is on and figure out how many class the student needs to take
 
+        //need to see how to recognoze and deal with Ps and Fs
+
         for(var i = 0; i < course_grades.length; i++){
             //still need to calculate GPA with just passes and fails
             if(course_attributes[i] == "Core"){
@@ -62,6 +64,8 @@ class GPA_Calculator extends Student{
         //needs to make check if all class are C+ or higher (some professsor might not follow thw grade ranges for letter grades)
 
         //needs to see how many class that need to be taken
+
+    
 
         this.total_GPA = totalGPA;
         this.core_GPA = coreGPA;
